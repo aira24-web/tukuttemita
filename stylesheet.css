@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@media screen and (max-width:480px)
+    
+    main{
+width: 100%
+}
+
 body {
     font-family: 'Noto Serif JP', serif;
     background-color: rgb(229, 241, 240);
