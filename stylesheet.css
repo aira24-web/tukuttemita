@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Noto Serif JP', serif;
+    background-color: rgb(229, 241, 240);
+}
+
+.section-wrap {
+    padding: 60px 0;
+}
+
+.section-inner {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.section-ttl {
+    font-size: 24px;
+    font-weight: bold;
+    
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+/*headerのスタイル*/
+.header {
+    padding-top: 40px;
+   
+}
+
+
+.header-nav {
+    margin-top: 40px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item + .nav-item {
+    margin-left: 40px;
+}
+
+.kv {
+    padding: 60px 0;
+}
+
+.kv-img {
+    border-right: 1px;
+    border-left: 1px;
+}
+
+.kv-img img {
+    height: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+/*memoryのスタイル*/
+.memory {
+    color: #646464;
+}
+
+.memory-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.memory-item:nth-child(even) {
+    flex-direction: row-reverse;
+    background: #fff;
+}
+
+.memory-img {
+    max-width: 512px;
+    width: 48%;
+}
+
+.memory-content {
+    max-width: 520px;
+    width: 48%;
+}
+
+.memory-ttl {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.memory-txt {
+    margin-top: 24px;
+}
+
+
+
+/*youのスタイル*/
+.you {
+    color: #646464;
+}
+
+.you-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.you-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.you-img {
+    max-width: 512px;
+    width: 48%;
+}
+
+.you-content {
+    max-width: 520px;
+    width: 48%;
+}
+
+.you-ttl {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.you-txt {
+    margin-top: 24px;
+}
+
+/*futureのスタイル*/
+.future {
+    color: #646464;
+    background: #fff;
+}
+
+.future-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.future-img {
+    max-width: 512px;
+    width: 48%;
+}
+
+.future-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.future-content {
+    max-width: 520px;
+    width: 48%;
+}
+
+.future-ttl {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.future-txt {
+    margin-top: 24px;
+}
+
+
+/*contactのスタイル*/
+.contact {
+    color: #646464;
+}
+
+.contact-wrap {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-right: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-btn {
+    font-family: 'Noto Sans JP', sans-serif;
+    display: block;
+    border: 1px solid #ccc; 
+    width: 160px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+
+.contact-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/*footerのスタイル*/
+.footer {
+    padding-top: 60px;
+    color: #646464;
+}
+
+.footer-nav {
+    margin-top: 40px;
+}
+
+.footer-cr {
+    display: block;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 60px;
+    margin-left: 130px;
+}
