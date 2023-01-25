@@ -25,6 +25,10 @@ ul {
     list-style: none;
 }
 
+a {
+    color: rgb(34, 30, 34);
+}
+
 /*headerのスタイル*/
 .header {
     padding-top: 40px;
