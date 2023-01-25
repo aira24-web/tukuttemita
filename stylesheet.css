@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@media screen and(max-width: 780px){
     
 body {
     font-family: 'Noto Serif JP', serif;
@@ -225,6 +224,4 @@ a {
     text-align: center;
     padding: 16px 0;
     margin-top: 60px;
-}
-
 }
