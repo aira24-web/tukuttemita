@@ -107,10 +107,6 @@ a {
 .you {
     color: #646464;
     background-color: #fff;
-    margin-right: calc(50% - 50vw);
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50vw - 50%);
-    margin-left: calc(50vw - 50%);
 }
 
 @media screen and (max-width: 768px) {
