@@ -113,6 +113,13 @@ a {
     margin-left: calc(50vw - 50%);
 }
 
+@media screen and (max-width: 768px) {
+    .you {
+        background-color: #fff;
+    }
+}
+
+
 .you-item {
     display: flex;
     justify-content: space-between;
