@@ -225,3 +225,59 @@ a {
     margin-top: 60px;
 }
 
+/*memoryのスタイル*/
+.memory-item {
+    flex-wrap: wrap; /* 新しく追加：要素が横に並ぶように */
+}
+
+.memory-img,
+.memory-content,
+.memory-txt {
+    width: 100%; /* 新しく追加：全ての要素が100%の幅を持つように */
+}
+
+.memory-img {
+    max-width: 48%; /* 変更：幅の制約を48%に */
+}
+
+.memory-content {
+    max-width: 48%; /* 変更：幅の制約を48%に */
+}
+
+/*youのスタイル*/
+.you-item {
+    flex-wrap: wrap; /* 新しく追加：要素が横に並ぶように */
+}
+
+.you-img,
+.you-content,
+.you-txt {
+    width: 100%; /* 新しく追加：全ての要素が100%の幅を持つように */
+}
+
+.you-img {
+    max-width: 48%; /* 変更：幅の制約を48%に */
+}
+
+.you-content {
+    max-width: 48%; /* 変更：幅の制約を48%に */
+}
+
+/*futureのスタイル*/
+.future-item {
+    flex-wrap: wrap; /* 新しく追加：要素が横に並ぶように */
+}
+
+.future-img,
+.future-content,
+.future-txt {
+    width: 100%; /* 新しく追加：全ての要素が100%の幅を持つように */
+}
+
+.future-img {
+    max-width: 48%; /* 変更：幅の制約を48%に */
+}
+
+.future-content {
+    max-width: 48%; /* 変更：幅の制約を48%に */
+}
